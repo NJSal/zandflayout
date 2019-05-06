@@ -60,11 +60,13 @@ added a comment
 #content h2 {
     font-size: 33px;
     line-height: 52px;
+    text-align: left;
 }
 
 #content h3 {
-    font-size: 26px;
-    line-height: 41px;
+    font-size: 33px;
+    line-height: 52px;
+    text-align: left;
 }
 
 #content h4 {
@@ -174,7 +176,7 @@ p{
 
 img{
     height: 200px;
-    width: 200px;
+    width: 300px;
     padding-right: 18px;            /*newly added*/
     float: left;
     clear: both;
