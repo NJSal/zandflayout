@@ -4,6 +4,10 @@ body {
     font-weight: 300;
 }
 
+/*
+added a comment
+*/
+
 
 /*
 #box1 {
@@ -56,13 +60,11 @@ body {
 #content h2 {
     font-size: 33px;
     line-height: 52px;
-    text-align: left;
 }
 
 #content h3 {
-    font-size: 33px;
-    line-height: 52px;
-    text-align: left;
+    font-size: 26px;
+    line-height: 41px;
 }
 
 #content h4 {
@@ -106,7 +108,7 @@ body {
     float: right;
 
 }
-/*added comments*/
+
 #banner {
     height: 363px;
     background-image: url("images/happypeople.jpg");
@@ -172,7 +174,7 @@ p{
 
 img{
     height: 200px;
-    width: 300px;
+    width: 500px;
     padding-right: 18px;            /*newly added*/
     float: left;
     clear: both;
