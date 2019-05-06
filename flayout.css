@@ -34,12 +34,13 @@ body {
 
 #wrapper {
     width: 960px;
-    height: 1553px;
+    height: 1335px;
     margin-left: auto;
     margin-right: auto;
 }
 #content {
     width: 911px;
+    height: 1110px;
     padding-right: 24px;
     padding-left: 24px;
     float: left;
@@ -66,8 +67,9 @@ body {
 }
 
 #content h4 {
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 33px;
+    line-height: 52px;
+    text-align:left;
 }
 
 #content h5 {
@@ -87,7 +89,10 @@ body {
 */
 
 #footer {
-    clear: both;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    clear:both;
 }
 
 #header {
@@ -176,4 +181,8 @@ img{
     padding-right: 18px;            /*newly added*/
     float: left;
     clear: both;
+}
+
+#container{
+    height: 1033px;
 }
