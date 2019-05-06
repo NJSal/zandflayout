@@ -6,6 +6,6 @@
 
 
 ## Index  
-### link to the Z Layout : web.njit.edu/~dfs23/zandflayout/zlayout.html
+### link to the Z Layout : https://web.njit.edu/~dfs23/zandflayout/zlayout.html
 
-### link to the F Layout : web.njit.edu/~dfs23/zandflayout/flayout.html
+### link to the F Layout : https://web.njit.edu/~dfs23/zandflayout/flayout.html
