@@ -54,6 +54,7 @@ added a comment
 #content h1 {
     font-size: 42px;
     line-height: 65px;
+    text-align: center;
 }
 
 #content h2 {
@@ -166,9 +167,15 @@ added a comment
 .boxContent {
     padding-top: 9px;
 }
+
+p{
+    padding: 35px;
+}
+
 img{
     height: 200px;
     width: 200px;
+    padding-right: 18px;            /*newly added*/
     float: left;
     clear: both;
 }
