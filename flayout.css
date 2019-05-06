@@ -89,7 +89,8 @@ body {
 */
 
 #footer {
-    background-color: white;
+    background-color: black;
+    /*height: 85px;*/
     position: relative;
     text-align: center;
     clear:both;
@@ -184,5 +185,5 @@ img{
 }
 
 #container{
-    height: 1033px;
+    height: 1110px;
 }
