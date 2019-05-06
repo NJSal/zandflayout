@@ -1,0 +1,188 @@
+body {
+    background-color: white;
+    font-family: "PT Serif", serif,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: darkblue;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom:100px;
+}
+
+#box1 {
+    background-color: white;
+    /*float: left;*/
+}
+#box2 {
+    background-color: white;
+    /*float: left;*/
+}
+#box3 {
+    background-color: white;
+    /*
+    clear: both;
+    float: left;
+    */
+}
+/*
+#box4 {
+    background-color: yellow;
+    float: left;
+}
+*/
+/*
+.box {
+    width: 100px;
+    height: 100px;
+}
+*/
+.fullborder {
+    border: black solid thin;
+}
+
+#wrapper {
+    width: 960px;                       /*originally 960*/
+    height: 1153px;                      /*originally 1553*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#content {
+    width: 541px;
+    padding-right: 24px;
+    padding-left: 24px;
+    float: left;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+#content h1 {
+    font-size: 42px;
+    line-height: 65px;
+}
+
+#content h2 {
+    font-size: 33px;
+    line-height: 52px;
+}
+
+#content h3 {
+    font-size: 26px;
+    line-height: 41px;
+}
+
+#content h4 {
+    font-size: 20px;
+    line-height: 33px;
+}
+
+#content h5 {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+#content h6 {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+#sidebar {
+    width: 367px;
+    float: right;
+}
+
+#footer {
+    background-color: black;
+    position: relative;
+    height: 85px;
+    text-align: center;
+    clear:both;
+
+}
+
+#header {
+    background-color: black;
+    height: 200px;
+    line-height: 200px;
+}
+
+#header li {
+    display: inline;
+}
+
+#header ul {
+    color: white;
+    margin-right: 31px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+
+}
+
+#banner {
+    height: 430px;                                          /*originally 363*/
+    background-image: url("images/JacobJavits.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 40px;
+    /*line-height: 430px;*/          /*updated 5/4/19*/                           /*originally 363*/
+    inline-size: 959px;             /*included*/
+}
+
+#hero  {
+    height:0px;                 /*updated 5/4/19*/
+    /*
+    height: 365px;
+    width: 320px;
+    */
+    position: relative;
+    display: block;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #563d7c;
+    padding: 0px;
+    filter: alpha(opacity=40);
+    opacity: .80;
+}
+
+#hero h1 {
+    margin: 0px;
+}
+
+#heroText   {
+
+    position: relative;
+    z-index: 2;
+    background: rgba(255,255,255,0.8);
+
+}
+
+
+.box {
+    width: 245px;                           /*initially 266*/
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 18px;
+    height: 300px;
+    float: left;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    margin-top: 50px;
+    margin-right: 18px;
+    margin-left: 30px;
+}
+
+.boxTitle {
+    border-bottom: 1px solid black;
+}
+.boxContent {
+    padding-top: 9px;
+}
+
+#container{
+    height: 433px;
+}
